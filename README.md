@@ -9,6 +9,8 @@ Just download and drop (see the .gif) the [.crx](https://github.com/mathijsblokl
 
 ![](http://img.springe.st/extension.gif)
 
+###Content of the default pull request
+
 ````
 #### What's this PR do?
 
