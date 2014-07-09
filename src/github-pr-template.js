@@ -6,10 +6,8 @@
       handle = 0;
 
       // Get context from the URL
-      var baseUrl = window.location.href.split( '/' ),
-          mergePath = baseUrl[6].split( '...' ),
-          branchBase = mergePath[0],
-          branchHead = mergePath[1],
+      var branchBase = $('input[name="base"]:hidden').val().replace('Springest:', ''),
+          branchHead = $('input[name="head"]:hidden').val().replace('Springest:', ''),
           prBody = $('textarea[name="pull_request[body]"]'),
           prBodyValue = prBody.val();
 
