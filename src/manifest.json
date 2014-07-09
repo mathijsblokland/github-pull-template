@@ -1,5 +1,5 @@
 {
-  "name": "Github PR teplate",
+  "name": "Github PR template",
   "description": "Sets default pull request template",
   "manifest_version": 2,
   "permissions": [ "activeTab", "storage", "webNavigation" ],
