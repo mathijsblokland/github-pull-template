@@ -9,6 +9,11 @@ Just download and drop (see the .gif) the [.crx](https://github.com/mathijsblokl
 
 ![](http://img.springe.st/extension.gif)
 
+###How to update
+
+![](http://img.springe.st/extensionupdate.gif)
+
+
 ###Content of the default pull request
 
 ````
