@@ -5,7 +5,7 @@ A Google Chrome extension to inserts a default template for pull requests
 
 ###To install
 
-Just download and drop (see this [.gif](http://img.springe.st/extensioninstall.gif) ) the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'**.
+Just download and drop (see this [.gif](http://img.springe.st/extensioninstall.gif)) the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'**.
 
 ----
 
