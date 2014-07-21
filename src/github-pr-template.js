@@ -9,15 +9,22 @@
       var branchBase = $('input[name="base"]:hidden').val().replace('Springest:', ''),
           branchHead = $('input[name="head"]:hidden').val().replace('Springest:', ''),
           prBody = $('textarea[name="pull_request[body]"]'),
-          prBodyValue = prBody.val();
+          prBodyValue = prBody.val()
+          asanaIssue = '';
 
-      // Set default PR template
-      var data = "#### What's this PR do?\n\n#### Where should the reviewer start?\n\n#### How should this be manually tested?\n\n#### Any background context you want to provide?\n\n#### Screenshots (if appropriate)\n\n#### Important links:\n* _Asana issue(s):_ [`#`]()\n* _CodeClimate's comparison:_ [`" + branchBase + "` ... `" + branchHead + "`](https://codeclimate.com/repos/504f5356f3ea005e1c004209/compare/" + branchHead + ")\n\n#### Questions:\n  - Do we need to translate new strings?\n  - Does anyone need to be notified when this has been deployed?\n  - Does this include migrations that might take a while?";
+      // If there is an Asana hash in our prBody (mostly when a pr contains 1 commit)
+      if(/#(\d{14})/.test($('.commit-message').text())){
+        issueNumber = $('.commit-message').text().match(/#(\d{14})/);
+        asanaIssue = issueNumber[1];
+      }
 
       // If there is a default template remove it (can happen due local storage)
       if(prBodyValue.indexOf("#### What's this PR do?\n\n#### Where should") >= 0){
         prBodyValue = '';
       }
+
+      // Set default PR template
+      var data = "#### What's this PR do?\n\n#### Where should the reviewer start?\n\n#### How should this be manually tested?\n\n#### Any background context you want to provide?\n\n#### Screenshots (if appropriate)\n\n#### Important links:\n* _Asana issue(s):_ [`#" + asanaIssue + "`](https://app.asana.com/0/12345678/" + asanaIssue + ")\n* _CodeClimate's comparison:_ [`" + branchBase + "` ... `" + branchHead + "`](https://codeclimate.com/repos/504f5356f3ea005e1c004209/compare/" + branchHead + ")\n\n#### Questions:\n  - Do we need to translate new strings?\n  - Does anyone need to be notified when this has been deployed?\n  - Does this include migrations that might take a while?";
 
       // Add extra whitespace before default PR template if there is content
       if(prBodyValue != ''){
