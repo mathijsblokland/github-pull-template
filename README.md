@@ -16,6 +16,7 @@ In the extensions tab enable the **developer mode** and hit **update extensions 
 
 ###Changes
 ````
+0.0.6 - Generate links for all mentioned Asana tasks
 0.0.5 - By default uncheck the 'Changes are demoed to the stakeholder' checkbox
 0.0.4 - Updated the PRB with test steps and default question answers
 0.0.3 - Auto generate Asana link from asana hash in commit messages
