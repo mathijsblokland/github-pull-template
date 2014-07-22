@@ -14,5 +14,5 @@
     "48": "icon48.png"
   },
   "update_url": "https://raw.github.com/mathijsblokland/github-pull-template/master/update_manifest.xml",
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
