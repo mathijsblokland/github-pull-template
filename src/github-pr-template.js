@@ -31,7 +31,7 @@
       }
 
       // Set default PR template
-      var data = "#### What's this PR do?\n\n#### Where should the reviewer start?\n\n#### These steps were taken to test this PR:\n- [ ] Changes are demoed to the stakeholder (_name stakeholder_)\n- ~~[ ] Tested in a local development environment~~\n\n#### Any background context you want to provide?\n\n#### Screenshots (if appropriate)\n\n#### Important links:\n* _Asana issue(s):_ " + asanaLinks + "\n* _CodeClimate's comparison:_ [`" + branchBase + "` ... `" + branchHead + "`](https://codeclimate.com/repos/504f5356f3ea005e1c004209/compare/" + branchHead + ")\n\n#### Questions:\n  - Do we need to translate new strings? **Yes / No**\n  - Does anyone need to be notified when this has been deployed? **Yes / No**\n  - Does this include migrations that might take a while? **Yes / No**";
+      var data = "#### What's this PR do?\n\n#### Where should the reviewer start?\n\n#### These steps were taken to test this PR:\n- [ ] Changes are demoed to the stakeholder (_name stakeholder_)\n- [ ] ~~Tested in a local development environment~~\n\n#### Any background context you want to provide?\n\n#### Screenshots (if appropriate)\n\n#### Important links:\n* _Asana issue(s):_ " + asanaLinks + "\n* _CodeClimate's comparison:_ [`" + branchBase + "` ... `" + branchHead + "`](https://codeclimate.com/repos/504f5356f3ea005e1c004209/compare/" + branchHead + ")\n\n#### Questions:\n  - Do we need to translate new strings? **Yes / No**\n  - Does anyone need to be notified when this has been deployed? **Yes / No**\n  - Does this include migrations that might take a while? **Yes / No**";
 
       // Add extra whitespace before default PR template if there is content
       if(prBodyValue != ''){
