@@ -1,0 +1,9 @@
+{
+  "name": "github-pr-emplate",
+  "title": "Github PR template",
+  "id": "jid1-5oRtW84To6ESYw",
+  "description": "Sets default pull request template",
+  "author": "Mathijs Blokland",
+  "license": "MPL 2.0",
+  "version": "0.0.6"
+}
