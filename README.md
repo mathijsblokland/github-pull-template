@@ -8,6 +8,7 @@ Note: Because Chrome extensions can't handle symlinks for (scripts/css) we need 
 
 ###Changes
 ````
+0.0.8 - Updated the readability and implemented a small change suggested by @derekkraan
 0.0.7 - Created the firefox extension (and moved around some files)
 0.0.6 - Generate links for all mentioned Asana tasks
 0.0.5 - By default uncheck the 'Changes are demoed to the stakeholder' checkbox
@@ -16,3 +17,4 @@ Note: Because Chrome extensions can't handle symlinks for (scripts/css) we need 
 0.0.2 - Changed how we set the branchnames for the CodeClimate link
 0.0.1 - initial version with the default pr body
 ````
+
