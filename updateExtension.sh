@@ -31,7 +31,7 @@ sh crxmake.sh extension/chrome/src extension/chrome/install/github-pr-template.p
 
 # Generate Firefox extension
 cd extension/firefox
-cfx xpi --update-link https://github.com/mathijsblokland/github-pull-template/extension/firefox/install/github-pr-emplate.xpi --update-url https://github.com/mathijsblokland/github-pull-template/extension/firefox/install/github-pr-emplate.update.rdf
+cfx xpi --update-link https://raw.github.com/mathijsblokland/github-pull-template/master/extension/firefox/install/github-pr-emplate.xpi --update-url https://raw.github.com/mathijsblokland/github-pull-template/master/extension/firefox/install/github-pr-emplate.update.rdf
 echo "Wrote Firefox extension"
 
 # Move the generated Firefox files into the install folder
