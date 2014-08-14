@@ -10,9 +10,9 @@
     "run_at": "document_end"
   } ],
   "icons": {
-    "128": "icon128.png",
-    "48": "icon48.png"
+    "128": "/data/icon128.png",
+    "48": "/data/icon48.png"
   },
-  "update_url": "https://raw.github.com/mathijsblokland/github-pull-template/master/update_manifest.xml",
-  "version": "0.0.6"
+  "update_url": "https://raw.github.com/mathijsblokland/github-pull-template/extension/chrome/master/update_manifest.xml",
+  "version": "0.0.8"
 }

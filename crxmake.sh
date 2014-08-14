@@ -21,8 +21,7 @@ if test $# -lt 2; then
   echo "Usage:"
   echo "crxmake.sh <extension dir> <pem path> [output.crx]"
   echo ""
-  echo "crxmake.sh src extension/github-pr-template.pem extension/github-pr-template.crx"
-  echo "crxmake.sh src extension/github-pr-template.pem extension/github-pr-template.crx version.txt"
+  echo "crxmake.sh src extension/chrome/install/github-pr-template.pem extension/chrome/install/github-pr-template.crx"
   echo ""
   exit 1
 else
@@ -35,22 +34,6 @@ else
     dest=$3
     fver=$4
   fi
-fi
-
-# do build versioning
-if test ${#fver} -gt 0; then
-  # gsed increment build revision
-  orig_version=$(head -n 1 "$cwd/$fver")
-  (gsed -r -i"" 's/^([0-9]+\.[0-9]\.)([0-9]+)/echo \1$((\2+1))/e' "$cwd/$fver")
-  new_version=$(head -n 1 "$cwd/$fver")
-
-  # bump update_manifest
-  sed_update_manifest="s/\.crx\" version=\".*\\?\"/\.crx\" version=\"$new_version\"/"
-  (gsed -i"" "$sed_update_manifest" "$cwd/update_manifest.xml")
-
-  # bump manifest
-  sed_src_manifest="s/\"version\": \".*\\?\"/\"version\": \"$new_version\"/"
-  (gsed -i"" "$sed_src_manifest" "$cwd/src/manifest.json")
 fi
 
 # build vars
