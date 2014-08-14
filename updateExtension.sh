@@ -27,7 +27,7 @@ cp src/github-pr-template.js extension/chrome/src/github-pr-template.js
 echo "Copied github-pr-template.js to chrome/src folder"
 
 # Generate Chrome extension with crxmake.sh
-sh crxmake.sh src extension/chrome/install/github-pr-template.pem extension/chrome/install/github-pr-template.crx
+sh crxmake.sh extension/chrome/src extension/chrome/install/github-pr-template.pem extension/chrome/install/github-pr-template.crx
 
 # Generate Firefox extension
 cd extension/firefox

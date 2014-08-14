@@ -21,7 +21,7 @@ if test $# -lt 2; then
   echo "Usage:"
   echo "crxmake.sh <extension dir> <pem path> [output.crx]"
   echo ""
-  echo "crxmake.sh src extension/chrome/install/github-pr-template.pem extension/chrome/install/github-pr-template.crx"
+  echo "crxmake.sh extension/chrome/src extension/chrome/install/github-pr-template.pem extension/chrome/install/github-pr-template.crx"
   echo ""
   exit 1
 else

@@ -13,6 +13,6 @@
     "128": "/data/icon128.png",
     "48": "/data/icon48.png"
   },
-  "update_url": "https://raw.github.com/mathijsblokland/github-pull-template/extension/chrome/master/update_manifest.xml",
-  "version": "0.0.8"
+  "update_url": "https://raw.github.com/mathijsblokland/github-pull-template/master/extension/chrome/update_manifest.xml",
+  "version": "0.0.9"
 }
