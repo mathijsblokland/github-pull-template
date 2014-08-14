@@ -6,6 +6,22 @@ A Google Chrome and Firefox extension to inserts a default template for pull req
 Note: Because Chrome extensions can't handle symlinks for (scripts/css) we need to copy the src file `github-pull-template.js` to the `/chrome/src/` folder when we are generating the new extension.
 
 
+###How to install
+####Firefox
+Just download the [.xpi](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/firefox/install/github-pr-emplate.xpi) and install it through the extensions tab (`about:addons`) with the option to `Install Add-on From File...`(see this [img](http://img.springe.st/2014_08_14_10_33_17_kf4om.png))
+
+
+####Chrome
+Just download and drop the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'** (see this [.gif](http://img.springe.st/extensioninstall.gif)).
+
+----
+
+###How to update
+In the extensions tab enable the **developer mode** and hit **update extensions now** (see this [.gif](http://img.springe.st/extensionupdate.gif)).
+
+----
+
+
 ###Changes
 ````
 0.0.8 - Updated the readability and implemented a small change suggested by @derekkraan
