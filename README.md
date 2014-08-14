@@ -23,6 +23,7 @@ Just download and drop the [.crx](https://github.com/mathijsblokland/github-pull
 
 ###Changes
 ````
+0.0.9 - Fixed the chrome update path (re-install is needed :( )
 0.0.8 - Updated the readability and implemented a small change suggested by @derekkraan
 0.0.7 - Created the firefox extension (and moved around some files)
 0.0.6 - Generate links for all mentioned Asana tasks
