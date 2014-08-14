@@ -8,16 +8,15 @@ Note: Because Chrome extensions can't handle symlinks for (scripts/css) we need 
 
 ###How to install
 ####Firefox
-Just download the [.xpi](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/firefox/install/github-pr-emplate.xpi) and install it through the extensions tab (`about:addons`) with the option to `Install Add-on From File...`(see this [img](http://img.springe.st/2014_08_14_10_33_17_kf4om.png))
+Just download the [.xpi](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/firefox/install/github-pr-emplate.xpi) and install it through the extensions tab (`about:addons`) with the option to `Install Add-on From File...`(see this [img](http://img.springe.st/2014_08_14_10_33_17_kf4om.png)). 
+
+**Auto Updating:** If you want to auto update this extension you can do this by enabling the [automatic updates](http://img.springe.st/2014_08_14_10_39_53_3k8jw.png).
 
 
 ####Chrome
 Just download and drop the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'** (see this [.gif](http://img.springe.st/extensioninstall.gif)).
 
-----
-
-###How to update
-In the extensions tab enable the **developer mode** and hit **update extensions now** (see this [.gif](http://img.springe.st/extensionupdate.gif)).
+**Auto Updating:** In the extensions tab enable the **developer mode** and hit **update extensions now** (see this [.gif](http://img.springe.st/extensionupdate.gif)).
 
 ----
 
