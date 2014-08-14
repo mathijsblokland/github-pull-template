@@ -14,7 +14,7 @@ Just download the [.xpi](https://github.com/mathijsblokland/github-pull-template
 
 
 ####Chrome
-Just download and drop the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'** (see this [.gif](http://img.springe.st/extensioninstall.gif)).
+Just download and drop the [.crx](https://github.com/mathijsblokland/github-pull-template/raw/master/extension/chrome/install/github-pr-template.crx) file in your `chrome://extensions/` and click **'add'** (see this [.gif](http://img.springe.st/extensioninstall.gif)).
 
 **Auto Updating:** In the extensions tab enable the **developer mode** and hit **update extensions now** (see this [.gif](http://img.springe.st/extensionupdate.gif)).
 
