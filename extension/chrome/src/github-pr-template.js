@@ -6,9 +6,7 @@
       handle = 0;
 
       // Get context from the URL
-      var branchBase = $('input[name="base"]:hidden').val().replace('Springest:', ''),
-          branchHead = $('input[name="head"]:hidden').val().replace('Springest:', ''),
-          prBody = $('textarea[name="pull_request[body]"]'),
+      var prBody = $('textarea[name="pull_request[body]"]'),
           prBodyValue = prBody.val(),
           asanaLinks = '',
           asanaDivider = '';
@@ -38,8 +36,7 @@
               + "#### Any background context you want to provide?\n\n"
               + "#### Screenshots (if appropriate)\n\n"
               + "#### Important links:\n"
-              + "* _Asana issue(s):_ " + asanaLinks + "\n"
-              + "* _CodeClimate's comparison:_ [`" + branchBase + "` ... `" + branchHead + "`](https://codeclimate.com/repos/504f5356f3ea005e1c004209/compare/" + branchHead + ")\n\n"
+              + "* _Asana issue(s):_ " + asanaLinks + "\n\n"
               + "#### Questions:\n"
               + "- Do we need to translate new strings? **Yes / No**\n"
               + "- Does anyone need to be notified when this has been deployed? **Yes / No**\n"
