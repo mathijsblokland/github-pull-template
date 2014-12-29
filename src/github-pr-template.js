@@ -31,8 +31,9 @@
       // Set default PR template
       var data = "#### What's this PR do?\n\n#### Where should the reviewer start?\n\n"
               + "#### These steps were taken to test this PR:\n"
-              + "- [ ] Changes are demoed to the stakeholder (_name stakeholder_)\n"
-              + "- [ ] ~~Tested in a local development environment~~\n\n"
+              + "- [ ] Demoed to _stakeholder_\n"
+              + "- [ ] Wrote/updated Specs\n"
+              + "- [ ] Checked Security\n\n"
               + "#### Any background context you want to provide?\n\n"
               + "#### Screenshots (if appropriate)\n\n"
               + "#### Important links:\n"
