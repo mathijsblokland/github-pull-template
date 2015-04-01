@@ -34,6 +34,8 @@
               + "- [ ] Demoed to _stakeholder_\n"
               + "- [ ] Wrote/updated Specs\n"
               + "- [ ] Added necessary tags (points used/estimated, bug, mini) to GH issue\n"
+              + "- [ ] Checked and updated cache keys\n"
+              + "- [ ] Prefixed new strings according to guidelines\n"
               + "- [ ] Checked Security\n\n"
               + "#### Any background context you want to provide?\n\n"
               + "#### Screenshots (if appropriate)\n\n"
